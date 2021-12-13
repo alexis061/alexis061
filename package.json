@@ -1,0 +1,26 @@
+{
+    "name": "tasks-mongo-0",
+    "version": "1.0.0",
+    "description": "Tasks avec Mongo, Mongoose et Nunjucks",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.0",
+        "mongoose": "^5.8.0",
+        "nunjucks": "^3.2.0",
+        "path": "^0.12.7"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "Todo",
+        "Mongo",
+        "Mongoose",
+        "Express",
+        "Nunjucks"
+    ],
+    "author": "GR",
+    "license": "ISC"
+}
